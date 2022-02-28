@@ -1,0 +1,36 @@
+.completed {
+  text-decoration-line: line-through;
+  line-height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  padding: 0 8px;
+  color: #666;
+}
+.notCompleted {
+  line-height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  padding: 0 8px;
+  color: #666;
+}
+.li-todo{
+    list-style: none;
+    margin: 5px;
+}
+.button-todo{
+  border: 2px solid rgba(8, 99, 99, 0.918);
+  border-radius: 4px;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  transition: all 1s ease-in;
+  font-family: "Shizuru", cursive;
+  transition: all 1s ease-in;
+  font-size: 15px;
+  margin: 1px;
+}
+.button-todo:hover{
+  background-color: rgba(77, 148, 148, 0.918);
+}
