@@ -3,7 +3,6 @@ import { v4 as uuidv4 } from "uuid";
 import './form.css'
 
 const Form = ({ input, setInput, todos, setTodos, editTodo, setEditTodo }) => {
-  const [currenteDate,setCurrenteDate]=useState("")
   useEffect(()=>{
     if(editTodo){
       setInput(editTodo.title)

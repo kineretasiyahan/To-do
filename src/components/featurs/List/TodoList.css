@@ -26,10 +26,10 @@
   color: black;
   cursor: pointer;
   transition: all 1s ease-in;
-  font-family: "Shizuru", cursive;
-  transition: all 1s ease-in;
   font-size: 15px;
   margin: 1px;
+  width: 60px;
+  line-height: 30px;
 }
 .button-todo:hover{
   background-color: rgba(77, 148, 148, 0.918);
